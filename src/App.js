@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './componnets/Footer/Footer';
 import Navbar from './componnets/Navbar/Navbar';
 import NotFound from './componnets/NotFound/NotFound';
 import About from './componnets/Pages/About/About';
@@ -11,7 +12,7 @@ import Reviews from './componnets/Pages/Reviews/Reviews';
 function App() {
   return (
     <div className="App">
-      <Navbar></Navbar>
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/home' element={<Home/>}/>
@@ -21,6 +22,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

@@ -4,9 +4,8 @@ import useE from '../../Hook/useEffect';
 
 const Reviews = () => {
     const [products]= useE()
-    console.log(products)
     return (
-        <div className='grid grid-cols-1 gap-5 md:grid-cols-2 p-3 lg:grid-cols-3 text-white text-lg font-medium'>
+        <div className='grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 p-3  text-white text-lg font-medium'>
            {
              products.map(pd=><AllProductReviews
              key={pd.id}

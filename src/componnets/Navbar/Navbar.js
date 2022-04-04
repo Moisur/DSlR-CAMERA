@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight, faBars } from '@fortawesome/free-solid-svg-icons'
 import logo from '../Images/camera.png'
@@ -14,10 +14,10 @@ const Navbar = () => {
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
               href="#pablo"
             >
-            <div className='flex gap-3 items-center'>
+            <Link to='/' className='flex gap-3 items-center'>
               <img className='w-[30px]' src={logo} alt="" />
               <span className='text-2xl'>DSlR CAMERA</span>
-            </div>
+            </Link>
             </a>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
