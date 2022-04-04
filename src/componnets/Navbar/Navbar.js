@@ -1,23 +1,24 @@
 import React from 'react';
-import {Link, NavLink} from 'react-router-dom';
+import {NavLink, useNavigate} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight, faBars } from '@fortawesome/free-solid-svg-icons'
 import logo from '../Images/camera.png'
 const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
+    const Navigate= useNavigate()
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-pink-500 ">
+      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-pink-500 drop-shadow-lg ">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <a
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
               href="#pablo"
             >
-            <Link to='/' className='flex gap-3 items-center'>
+            <button onClick={()=>Navigate('/')}  className='flex gap-3 items-center'>
               <img className='w-[30px]' src={logo} alt="" />
               <span className='text-2xl'>DSlR CAMERA</span>
-            </Link>
+            </button>
             </a>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"

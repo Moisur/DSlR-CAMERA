@@ -1,17 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import useE from '../../Hook/useEffect';
 import images from '../../Images/camera.png'
 import ProductReviews from '../../ProductReviews/ProductReviews';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 const Home = () => {
     const [products]= useE()
+    const Navigate=useNavigate()
     return (
         <div className=' bg-[#87867f49] pb-10'>
             <div className='grid px-2  mb-7 md:px-12  grid-cols-1 gap-5 md:grid-cols-2'>
                 <article className='order-2 md:order-none px-3  pt-40'>
                     <h1 className='text-5xl  font-bold text-pink-500'>A camera is an optical instrument that captures a visual image</h1>
                     <h1 className='text-2xl my-3 text-[#615a5ae4]'>A camera is a device that records pictures. It consists of a sealed box that catches the light rays given off by a source. A lens at the front of the camera brings the light rays to a focus and makes the picture seem closer or further away!</h1>
-                    <button className='bg-pink-500 text-white text-lg font-bold mx-2 p-4 py-2 rounded-lg'>See More...</button>
+                    <button onClick={()=>Navigate('/about')} className='bg-pink-500 text-white text-lg font-bold mx-2 p-4 py-2 rounded-lg'>See More...</button>
                 </article>
                 <article className='order-1 md:order-none pt-10 mx-auto'>
                     <img src={images} alt="" />
@@ -27,7 +30,10 @@ const Home = () => {
                        ></ProductReviews>)
                     }
                 </div>
-                <Link to='/reviews' className='bg-pink-500 rounded-lg py-2 px-4 w-[300px] my-10 mx-auto uppercase text-2xl font-medium text-white '>All Reviews</Link>
+                <button onClick={()=>Navigate('/reviews')}  className='bg-pink-500 rounded-lg py-2 px-4 w-[300px] my-10 mx-auto uppercase text-2xl font-medium text-white '>
+                    All Reviews
+                    <span className='px-2'><FontAwesomeIcon icon={faAngleRight} /></span>
+                </button>
             </div>
             
         </div>
