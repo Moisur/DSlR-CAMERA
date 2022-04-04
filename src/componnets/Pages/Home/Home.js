@@ -4,7 +4,7 @@ import useE from '../../Hook/useEffect';
 import images from '../../Images/camera.png'
 import ProductReviews from '../../ProductReviews/ProductReviews';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight} from '@fortawesome/free-solid-svg-icons'
 const Home = () => {
     const [products]= useE()
     const Navigate=useNavigate()
