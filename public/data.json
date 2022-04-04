@@ -1,0 +1,83 @@
+[
+    {
+    "Rating":"4.5",
+    "id": 1,
+    "name": "Leanne Graham",
+    "city": "Gwenborough",
+    "img":"https://previews.123rf.com/images/metelsky/metelsky1809/metelsky180900233/109815470-man-avatar-profile-male-face-icon-vector-illustration-.jpg?fj=1",
+    "cmd":"কিস্তিতে নেয়ার সিস্টেম থাকলে জানাবেন কিভাবে নেয়া যাবে। কি ডডকুমেন্টস লাগবে আর ডাউনপেমেন্ট কত দিতে হবে আমার ফোন নাম্বার"
+   
+    },
+    {
+    "Rating":"4.3",
+    "id": 2,
+    "name": "Ervin Howell",
+    "city": "Wisokyburgh",
+    "img":"https://cdn.vectorstock.com/i/1000x1000/71/98/male-avatar-profile-icon-round-man-face-vector-18307198.webp",
+    "cmd":"Please call at the given showroom number for details."
+    },
+    {
+    "Rating":"5",
+    "id": 3,
+    "name": "Clementine Bauch",
+    "city": "McKenziehaven",
+    "img":"https://media.istockphoto.com/photos/profile-view-of-serious-young-man-over-white-background-picture-id534880122?s=612x612",
+    "cmd":"Buy Eken H9R 12MP 4K Wi-Fi Waterproof Sport Action Camera"
+    },
+    {
+    "Rating":"4.1",
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "city": "South Elvis",
+    "img":"https://media.istockphoto.com/photos/portrait-of-brooding-bearded-man-in-grey-tshirt-looking-up-and-hand-picture-id1040670512?s=612x612",
+    "cmd":"DSLR cameras are a bit larger. Moreover, the size of these cameras varies depending on the quality and variations."
+    },
+    {
+    "Rating":"3.1",
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "city": "Roscoeview",
+    "img":"https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "cmd":" DSLR cameras have the advantage of using different gears. This is especially important for lenses."
+    },
+    {
+    "Rating":"4.9",
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "city": "South Christy",
+    "img":"https://media.istockphoto.com/photos/handsome-young-guy-posing-in-studio-in-olive-tshirt-looking-at-camera-picture-id1296659396?s=612x612",
+    "cmd":" The first question that comes to mind when buying a camera is the megapixel size. The subject is viewed very seriously, but it really depends on how you use the pictures you take."
+    },
+    {
+    "Rating":"4.8",
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "city": "Howemouth",
+    "img":"https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1148&q=80",
+    "cmd":"Generally, the question arises whether you will be able to upgrade the camera in the future. Although entry-level Digital SLR cameras are less expensive, they are outdated sooner than the best quality camera models."
+    },
+    {
+    "Rating":"4.4",
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "city": "Aliyaview",
+    "img":"https://media.istockphoto.com/photos/jogger-choosing-music-from-smart-phone-picture-id509627690?s=612x612",
+    "cmd":"There are various types of DSLR cameras that feature in the model, which may confuse you at the beginning. Some common features include aperture usage, shutter security, auto or manual focus."
+    },
+    {
+    "Rating":"5",
+    "id": 9,
+    "name": "Glenna Reichert",
+    "city": "Bartholomebury",
+    "img":"https://media.istockphoto.com/photos/young-woman-running-headphones-in-her-ears-picture-id1298439729?s=612x612",
+    "cmd":"DSLR cameras are available in the current market due to increasing demand and depreciation. Learn the details of how to select a DSLR camera as a buyer. Currently, DSLR cameras are available for a minimum of 23,500 BDT. "
+    },
+    {
+    "Rating":"3.6",
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "city": "Lebsackbury",
+    "img":"https://media.istockphoto.com/photos/refreshment-after-training-picture-id1294982632?s=612x612",
+    "cmd":"There are plenty of different DSLR cameras available in the market. So how do you know which camera is best for you? The following are a few aspects."
+    }
+    ]
