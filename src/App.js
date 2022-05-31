@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      {/* Fast time react router add  */}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/home' element={<Home/>}/>
